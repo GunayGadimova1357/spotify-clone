@@ -1,0 +1,61 @@
+{
+  "sidebar": {
+    "home": "Home",
+    "search": "Search",
+    "library": "Your Library",
+    "create_title": "Create your first playlist",
+    "create_subtitle": "It's easy, we will help you",
+    "create_button": "Create Playlist",
+    "podcast_title": "Let's find some podcasts",
+    "podcast_subtitle": "We'll keep you updated on new episodes",
+    "podcast_button": "Browse podcasts"
+  },
+  "navbar": {
+    "login": "Log in",
+    "signup": "Sign Up",
+    "filter": {
+      "all": "All",
+      "music": "Music",
+      "podcasts": "Podcasts"
+    }
+  },
+  "home": {
+    "featured_charts": "Featured Charts",
+    "todays_hits": "Today's biggest hits"
+  },
+  "album": {
+    "not_found": "Not found",
+    "playlist": "Playlist",
+    "likes": "likes",
+    "songs": "songs",
+    "duration": "about 2 hr 30 min",
+    "title": "Title",
+    "album": "Album",
+    "date_added": "Date added",
+    "added_relative": "5 days ago"
+  },
+  "login": {
+    "log_in": "Log In to Spotify",
+    "sign_up": "Sign Up for Spotify",
+    "continue": "Continue",
+    "login_with": "Log in with",
+    "or": "or",
+    "email": "Email",
+    "password": "Password",
+    "no_account": "Don't have an account",
+    "fill_all_fields": "Fill in all fields",
+    "log_in_error": "Log in error"
+},
+"signup": {
+    "sign_up": "Sign Up to start listening",
+    "sign_up_with": "Sign up with",
+    "email_or_username": "Email or Username",
+    "place_holder": "name@domain.com",
+    "next": "Next",
+    "or": "or",
+    "already_have_an_account": "Already have an account",
+    "log_in": "Log In",
+    "fill_all_fields": "Fill in all fields",
+    "sign_up_error": "Sign up error"
+}
+}

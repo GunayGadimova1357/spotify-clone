@@ -1,0 +1,61 @@
+{
+  "sidebar": {
+    "home": "Главная",
+    "search": "Поиск",
+    "library": "Твоя библиотека",
+    "create_title": "Создайте свой первый плейлист",
+    "create_subtitle": "Это просто, мы поможем",
+    "create_button": "Создать плейлист",
+    "podcast_title": "Давайте найдём подкасты",
+    "podcast_subtitle": "Мы будем держать вас в курсе новых эпизодов",
+    "podcast_button": "Слушать подкасты"
+  },
+  "navbar": {
+    "login": "Войти",
+    "signup": "Зарегистрироваться",
+    "filter": {
+      "all": "Все",
+      "music": "Музыка",
+      "podcasts": "Подкасты"
+    }
+  },
+    "home": {
+    "featured_charts": "Избранные чарты",
+    "todays_hits": "Главные хиты сегодня"
+  },
+  "album": {
+    "not_found": "Не найдено",
+    "playlist": "Плейлист",
+    "likes": "лайков",
+    "songs": "песен",
+    "duration": "примерно 2 ч 30 мин",
+    "title": "Название",
+    "album": "Альбом",
+    "date_added": "Дата добавления",
+    "added_relative": "5 дней назад"
+  },
+  "login": {
+    "log_in": "Вход",
+    "sign_up": "Регистрация",
+    "continue": "Продолжить",
+    "login_with": "Войти через",
+    "or": "или",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "no_account": "Нет аккаунта",
+    "fill_all_fields": "Заполните все поля",
+    "log_in_error": "Ошибка при входе"
+  },
+  "signup": {
+    "sign_up": "Регистрация",
+    "sign_up_with": "Зарегистрироваться через",
+    "email_or_username": "Почта или имя пользователя",
+    "next": "Далее",
+    "or": "или",
+    "already_have_an_account": "Уже есть аккаунт",
+    "sign_in": "Войти",
+    "fill_all_fields": "Заполните все поля",
+    "sign_up_error": "Ошибка при регистрации",
+    "log_in": "Вход"
+  }
+}

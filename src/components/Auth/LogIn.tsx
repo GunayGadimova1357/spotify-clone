@@ -3,8 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
-import { signInWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../firebase";
+
 import { assets } from '../../assets/assets';
 
 const LogIn: React.FC = () => {
@@ -23,13 +22,13 @@ const LogIn: React.FC = () => {
       return;
     }
 
-    try {
-      await signInWithEmailAndPassword(auth, emailValue, passwordValue);
-      navigate("/"); 
-    } catch (error: any) {
-      console.error("Login failed:", error);
-      setError(error.message || t("log_in_error"));
-    }
+    // try {
+    //   await signInWithEmailAndPassword(auth, emailValue, passwordValue);
+    //   navigate("/"); 
+    // } catch (error: any) {
+    //   console.error("Login failed:", error);
+    //   setError(error.message || t("log_in_error"));
+    // }
   };
 
   const isDisabled = !emailValue.trim() || !passwordValue.trim();

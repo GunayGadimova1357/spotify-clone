@@ -3,8 +3,7 @@ import { useTranslation } from "react-i18next";
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { Link, useNavigate } from "react-router-dom";
-import { createUserWithEmailAndPassword } from "firebase/auth";
-import { auth } from "../../firebase";
+
 import { assets } from "../../assets/assets";
 
 const SignUp: React.FC = () => {
@@ -22,13 +21,13 @@ const SignUp: React.FC = () => {
       return;
     }
 
-    try {
-      await createUserWithEmailAndPassword(auth, emailValue, "temporaryPassword123");
-      navigate("/");
-    } catch (error: any) {
-      console.error("Sign up error:", error);
-      setError(error.message || t("signup.sign_up_error"));
-    }
+    // try {
+    //   await createUserWithEmailAndPassword(auth, emailValue, "temporaryPassword123");
+    //   navigate("/");
+    // } catch (error: any) {
+    //   console.error("Sign up error:", error);
+    //   setError(error.message || t("signup.sign_up_error"));
+    // }
   };
 
   const isDisabled = !emailValue.trim();
